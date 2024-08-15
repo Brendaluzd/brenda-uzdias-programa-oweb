@@ -1,0 +1,84 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe6f2; /* Fundo rosa claro */
+    color: #800040; /* Texto em rosa escuro */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff66b2; /* Fundo rosa médio */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+    header h1 {
+        margin: 0;
+    }
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+    nav ul li {
+        display: inline;
+        margin: 0 15px;
+    }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #ff66b2; /* Fundo rosa médio */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Estilo do formulário */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #ffe6f2; /* Fundo do formulário rosa claro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+    form label {
+        color: #800040; /* Texto em rosa escuro */
+        margin-bottom: 5px;
+        display: block;
+    }
+
+    form input, form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ff99cc; /* Borda rosa */
+        border-radius: 5px;
+    }
+
+        form input[type="submit"] {
+            background-color: #ff4d94; /* Botão rosa escuro */
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+            form input[type="submit"]:hover {
+                background-color: #e60073; /* Botão rosa ainda mais escuro no hover */
+            }
